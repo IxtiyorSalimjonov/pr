@@ -1,0 +1,133 @@
+/* raleway-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/raleway-v28-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/raleway-v28-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/raleway-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+ }
+ body{
+  font-family: 'Raleway';
+}
+
+ .contener{
+ width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background:#fff;
+  }
+  .header {
+  
+
+  }
+  
+  .header__contener {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+
+
+  .header__nav {
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+
+  }
+
+
+
+  .header__nav-list__item-link {
+  padding-left: 40px;
+  text-decoration: none;
+  color:  #282B22;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  }
+
+
+  .header__nav-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  }
+
+
+  .header__nav-img__instagram {
+ margin-left: 146px;
+
+  }
+
+
+  .header__nav-img__facebook {
+  margin-left: 15px;
+
+  }
+
+
+  .header__nav-img__phone {
+  margin-left: 64px;
+
+  }
+
+
+  .header__nav-img__number {
+    color:  #3D4A39;
+    font-family: "lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    text-transform: uppercase;
+
+  }
+  /* hero */
+
+  .hero{
+  
+  }
+
+  .hero__contener{
+  
+  }
